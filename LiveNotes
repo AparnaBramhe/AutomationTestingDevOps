@@ -1,0 +1,26 @@
+Maven
+=====
+Maven is build and project management tool.
+
+For Maven project execution 
+===========================
+1. using pom.xml
+2. using CLI
+3. using jenkins
+
+Setup
+==========
+1. Plugins
+==========
+a. Compiler Plugin
+b. Surefire Plugin
+
+2. Goals to execute Maven
+=========================
+Goals (Actions)
+a. clean - To delete reports from target folder
+b. test - To test project
+c. install - installation of required files + test
+
+https://maven.apache.org/guides/getting-started/index.html
+==============================

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="EdgeTest(failed)">
+    <parameter name="bname" value="EdgeChrome"/>
+    <classes>
+      <class name="seleniumGrid.ParallelTest">
+        <methods>
+          <include name="crossBrowserTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- seleniumGrid.ParallelTest -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
